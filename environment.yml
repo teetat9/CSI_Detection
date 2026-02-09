@@ -1,0 +1,15 @@
+name: csi-lstm
+channels:
+  - conda-forge
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - pyserial
+  - pyqt
+  - pyqtgraph
+  - pytorch
