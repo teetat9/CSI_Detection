@@ -45,7 +45,7 @@ fft_gain_data = np.zeros([CSI_DATA_INDEX], dtype=np.float64)
 # -----------------------------
 # Dataset collection config
 # -----------------------------
-OUTPUT_DIR = "csi_dataset"
+OUTPUT_DIR = "../csi_dataset"
 LABELS = {
     0: "No Human",
     1: "Human (Static)",

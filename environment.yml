@@ -13,3 +13,5 @@ dependencies:
   - pyqt
   - pyqtgraph
   - pytorch
+  - scikit-learn
+  - ipykernel
