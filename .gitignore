@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Conda
+.env
+.conda
+
+# Data / outputs (สำคัญ)
+*.npy
+*.csv
+windows/
+preprocessed/
+data/
+
+# OS
+.DS_Store
+
+.vscode/
