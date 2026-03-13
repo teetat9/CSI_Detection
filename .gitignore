@@ -9,13 +9,6 @@ __pycache__/
 .env
 .conda
 
-# Data / outputs (สำคัญ)
-*.npy
-*.csv
-windows/
-preprocessed/
-data/
-
 # OS
 .DS_Store
 
