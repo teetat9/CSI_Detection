@@ -167,7 +167,7 @@ The notebook performs the following steps in order:
 1. **Load dataset** — reads `csi_dataset/csi_windows_w32_s16.pt`
 2. **Split data** — GroupShuffleSplit into 85% TEMP and 15% TEST
 3. **Sanity check** — 3-fold cross-validation with default hyperparameters
-4. **Hyperparameter search** — 5-fold cross-validation over the parameter grid
+4. **Hyperparameter search** — 3-fold cross-validation over the parameter grid
 5. **Final training** — train on all TEMP data with the best config
 6. **Evaluation** — evaluate once on the held-out TEST set (confusion matrix + classification report)
 7. **Save model** — exports the trained model to `lstm/csi_lstm_group85_test15.pt`
