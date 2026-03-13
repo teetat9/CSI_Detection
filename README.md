@@ -29,6 +29,7 @@ Step 4: Model Development (LSTM + StratifiedGroupKFold Cross-Validation)
         ↓
 Step 5: Evaluation (Held-out TEST set — Confusion Matrix & Classification Report)
 ```
+![image alt](https://github.com/teetat9/CSI_Detection/blob/95cd5dbfc9d1b86f94fd8a610bbefb3905cc627a/Screenshot%202026-03-13%20144859.png)
 
 ## Repository Structure
 
